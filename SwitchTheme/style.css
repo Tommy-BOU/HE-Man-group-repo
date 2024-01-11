@@ -1,0 +1,25 @@
+body {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-80%);
+	background: WhiteSmoke;
+}
+
+.darkModeBody {
+	background: black;
+}
+
+button {
+	padding: 10px 30px 10px 30px;
+	font-size: 15px;
+	border-radius: 20px;
+	cursor: pointer;
+	color: WhiteSmoke;
+	background: black;
+}
+
+.darkModeButton {
+	color: black;
+	background: WhiteSmoke;
+}
