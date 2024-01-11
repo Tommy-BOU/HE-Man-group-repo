@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur Hexa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="color_picker">
+            <input type="color" id="inputColor1">
+            <span id="colorHexa1" class="color-hexa"></span>
+        </div>
+
+        <div class="color_picker">
+            <input type="color" id="inputColor2">
+            <span id="colorHexa2" class="color-hexa"></span>
+        </div>
+
+        <div id="orientation">
+            <span>Orientation:</span> <span id="valueRange">180°</span>
+        </div>
+        <input type="range" id="inputRange" min="0" max="360" value="180">
+
+        <div class="buttons">
+            <button id="copy">Copier</button> <button id="random">Random</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
