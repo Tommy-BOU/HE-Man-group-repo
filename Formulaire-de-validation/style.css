@@ -1,0 +1,151 @@
+body {
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+    display: flex;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: #222;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    width: 400px;
+}
+
+.invalid-animation {
+    animation: invalid 0.2s ease-in-out;
+}
+
+@keyframes invalid {
+    25% {
+        transform: translateX(5px);
+    }
+    50% {
+        transform: translateX(-5px);
+    }
+    75% {
+        transform: translateX(3px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+label {
+    display: block;
+    margin-top: 25px;
+}
+
+.username-container {
+    display: flex;
+    position: relative;
+}
+
+.email-container {
+    display: flex;
+    position: relative;
+}
+
+.password-container {
+    display: flex;
+    position: relative;
+    font-size: 0.75em;
+}
+
+.confirmPW-container {
+    display: flex;
+    position: relative;
+}
+
+.password-strength {
+    padding: 0 40px;
+    gap: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    background-color: transparent;
+    border-style: none;
+    border-bottom: 2px solid grey;
+    box-sizing: border-box;
+    padding-left: 0;
+    margin-bottom: 0;
+    color: whitesmoke;
+}
+
+.warning-mark {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    color: red;
+}
+
+.redWarning {
+    color: red;
+    display: block;
+    font-size: .8em;
+    margin-top: 5px; 
+}
+
+.check-mark {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    color: lime;
+}
+
+.active {
+    outline: none;
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+.caption {
+    font-size: .75em;
+    color: grey;
+    margin-top: 7px;
+
+}
+
+.faible {
+    border-top: 4px solid orangered;
+    text-align: center;
+    padding: 5px 35px;
+}
+
+.moyen {
+    border-top: 4px solid yellow;
+    text-align: center;
+    padding: 5px 35px;
+}
+
+.fort {
+    border-top: 4px solid lime;
+    text-align: center;
+    padding: 5px 35px;
+}
+
+.form-container button {
+    display: block;
+    margin: 30px auto 30px;
+    background-color: lightgoldenrodyellow;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    font-family: sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+}
+

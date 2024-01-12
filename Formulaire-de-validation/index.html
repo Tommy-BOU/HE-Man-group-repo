@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Validation</title>
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Inscrivez-vous.</h2>
+    <form id="myForm">
+        <!-- username -->
+        <div class="username-section">
+            <label for="username">Nom d'utilisateur</label>
+            <div class="username-container">
+                <input type="text" id="username" name="username" placeholder="3 caractères minimum">
+            </div>
+        </div>
+
+        <!-- email -->
+        <div class="email-section">
+            <label for="email">Entrez votre email</label>
+            <div class="email-container">
+                <input type="email" id="email" name="email" placeholder="Votre email">
+            </div>
+        </div>
+
+        <!-- password -->
+        <div class="password-section">
+            <label for="password">Mot de passe</label>
+            <div class="password-container">
+                <input type="password" id="password" name="password" placeholder="Votre mot de passe">
+            </div>
+            <div class="caption">Au moins un symbole, un chiffre, ainsi que 6 caractères minimum.</div>
+        </div>
+        
+
+        <!-- confirmation password -->
+        <div class="confirmPW-section">
+            <label for="confirmPassword">Confirmez le mot de passe</label>
+            <div class="confirmPW-container">
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirmez le mot de passe">
+            </div>
+        </div>
+
+        <button type="button" id="createAccount">Création du compte</button>
+    </form>
+</div>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
