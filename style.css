@@ -51,3 +51,25 @@ footer {
     font-weight: bold;
     background-color: cornflowerblue;
 }
+
+a {
+    color: lightskyblue;
+}
+
+a:visited {
+    color: plum;
+}
+
+.project {
+    margin: 80px;
+}
+
+.project-title {
+    color: orange;
+}
+
+.projects-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
